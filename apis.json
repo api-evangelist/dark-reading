@@ -7,8 +7,8 @@
         "security blog",
         "tech blog"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dark-reading\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -21,14 +21,18 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dark-reading-openapi.json"
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dark-reading\/master\/dark-reading-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Blog RSS",
             "url": "http:\/\/www.darkreading.com\/rss_simple.asp"
